@@ -7,8 +7,16 @@
     <title>{{$page['title']}}</title>
 
     <link rel="stylesheet" href="css/style.css" />
-    <script src="js/all.js"></script>
-
+    {{--<script src="js/all.js"></script>--}}
+    <script src="source/assets/js/lib/jquery.min.js"></script>
+    <script src="source/assets/js/lib/energize.js"></script>
+    <script src="source/assets/js/lib/imagesloaded.min.js"></script>
+    <script src="source/assets/js/lib/highlight.min.js"></script>
+    <script src="source/assets/js/lib/jquery.highlight.js"></script>
+    <script src="source/assets/js/lib/jquery_ui.js"></script>
+    <script src="source/assets/js/lib/jquery.tocify.js"></script>
+    <script src="source/assets/js/lib/lunr.js"></script>
+    <script src="source/assets/js/script.js"></script>
 
     @if(isset($page['language_tabs']))
       <script>
